@@ -3685,23 +3685,88 @@ console.log(calc(10, myNumbers[calc.length], myNumbers[++calc.length])); // 80
 
 
 
-
 // <div class="one" title="two">Two</div>
 // <div class="two" title="one">One</div> 
 
 
-let a = document.querySelector('.one');
-let b = document.querySelector('.two');
+// let a = document.querySelector('.one');
+// let b = document.querySelector('.two');
 
-let c = document.querySelector('.one').cloneNode(true);
-let d = document.querySelector('.two').cloneNode(true);
-
+// let e = --b.getAttribute('class').length
   
-  a.setAttribute('title' ,)
+//   a.setAttribute('title' , b.getAttribute('title') );
+//   b.setAttribute('title' , a.textContent.toLowerCase());
 
-  a.textContent = d.textContent ;
-  b.textContent = c.textContent ;
-  
+//   a.textContent = b.textContent ;
+//   b.textContent = b.getAttribute('class').charAt().toUpperCase()+
+//   b.getAttribute('class').substr(--e) + " " + --b.getAttribute('class').length 
+
+
+
+
+
+// <form action="">
+//   <input type="number" name="dollar" placeholder="USD Dollar" />
+//   <div class="result">{0} USD Dollar = {0} Egyptian Pound</div>
+// </form>
+
+// let a = document.querySelector('[type = "number"]');
+// let c = document.querySelector('.result');
+
+// a.oninput = function(){
+
+//   c.innerHTML = ` {${a.value}} USD Dollar = {${a.value*15.6}} Egyptian Pound `;
+
+// }
+
+
+
+
+
+
+
+
+// <form action="">
+// <input type="number" name="elements" class="input" placeholder="Number Of Elements" />
+// <input type="text" name="texts" class="input" placeholder="Elements Text" />
+// <select name="type" class="input">
+//   <option value="Div">Div</option>
+//   <option value="Section">Section</option>
+// </select>
+// <input type="submit" name="create" value="Create" />
+// <div class="results"></div>
+// </form>
+
+
+// <div class="box" title="Element" id="id-1">Hello</div>
+// <div class="box" title="Element" id="id-2">Hello</div>
+// <div class="box" title="Element" id="id-3">Hello</div>
+
+
+let num = document.querySelector("[type = 'number']");
+let text = document.querySelector("[type = 'text']");
+let submit = document.querySelector("[type = 'submit']");
+let results = document.querySelector("[class = 'results']");
+
+
+document.forms[0].onsubmit = function (e) {
+
+  for(let i=0 ; i<num.value ; i++){
+    if()
+
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
 
 
 
